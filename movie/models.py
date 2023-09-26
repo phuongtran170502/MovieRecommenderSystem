@@ -16,7 +16,7 @@ class Movie(models.Model):
     poster = models.ImageField(upload_to='img/')
     overview = models.TextField()
     movie_duration = models.DurationField()
-    realease_date = models.DateField()
+    release_date = models.DateField()
     status = models.TextField()
 
     def __str__(self):
